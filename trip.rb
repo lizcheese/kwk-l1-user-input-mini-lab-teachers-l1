@@ -18,4 +18,5 @@ eat = gets.chomp
 puts "Finally #{name}, how many nights will you be staying?"
 nights = gets.chomp
 
-puts "Okay #{name}, here is your itinerary: You are visiting #{stay} for #{nights} nights. During your trip you will see #{see}, and eat #{eat}. Have fun!"
+itinerary = "Okay #{name}, here is your itinerary: You are visiting #{stay} for #{nights} nights. During your trip you will see #{see}, and eat #{eat}. Have fun!"
+puts itinerary
